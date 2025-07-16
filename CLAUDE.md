@@ -64,6 +64,41 @@ This is a Neovim configuration using Lua, organized in a modular structure:
 - `[c` - Previous hunk
 - `ih` - Select hunk (text object)
 
+### LSP (Language Server Protocol)
+- `gD` - Go to declaration
+- `gd` - Go to definition
+- `K` - Show hover information
+- `gi` - Go to implementation
+- `<C-k>` - Show signature help
+- `<space>D` - Go to type definition
+- `<space>rn` - Rename symbol
+- `<space>ca` - Code actions
+- `gr` - Go to references
+- `<space>f` - Format code
+- `<space>wa` - Add workspace folder
+- `<space>wr` - Remove workspace folder
+- `<space>wl` - List workspace folders
+
+### Diagnostics
+- `<space>e` - Open diagnostic float
+- `[d` - Previous diagnostic
+- `]d` - Next diagnostic
+- `<space>q` - Set diagnostics to location list
+
+### Completion
+- `<Tab>` - Next completion item / expand snippet
+- `<S-Tab>` - Previous completion item / jump back in snippet
+- `<CR>` - Confirm selection
+- `<C-Space>` - Trigger completion
+- `<C-e>` - Abort completion
+- `<C-b>` - Scroll docs up
+- `<C-f>` - Scroll docs down
+
+### Formatting & Linting
+- `<leader>lf` - Format buffer manually
+- `<leader>li` - Organize imports (Python)
+- Format on save is enabled automatically
+
 ### Standard Vim Commands
 - `<C-w>` + `hjkl` - Navigate between windows
 - `:w` - Save file
