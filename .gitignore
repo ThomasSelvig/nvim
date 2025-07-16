@@ -1,0 +1,23 @@
+# Plugin directory - managed by vim-plug
+plugged/
+
+# Vim swap files
+*.swp
+*.swo
+
+# Vim session files
+Session.vim
+.session
+
+# Neovim logs
+.nvimlog
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+*.bak
+*.tmp
