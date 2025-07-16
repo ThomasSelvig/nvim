@@ -40,6 +40,30 @@ This is a Neovim configuration using Lua, organized in a modular structure:
 - `<C-l>` - Next buffer
 - `<leader>1-5` - Jump to buffer 1-5 directly
 
+### Git Operations
+- `<leader>gs` - Git status (interactive staging)
+- `<leader>ga` - Git add all files
+- `<leader>gc` - Git commit
+- `<leader>gp` - Git push
+- `<leader>gl` - Git pull
+- `<leader>gd` - Git diff split view
+- `<leader>gb` - Git blame
+
+### Git Hunks (Gitsigns)
+- `<leader>hs` - Stage hunk under cursor
+- `<leader>hr` - Reset hunk under cursor
+- `<leader>hS` - Stage entire buffer
+- `<leader>hR` - Reset entire buffer
+- `<leader>hp` - Preview hunk
+- `<leader>hb` - Show blame line
+- `<leader>tb` - Toggle current line blame
+- `<leader>hd` - Diff this file
+- `<leader>hD` - Diff this file against index
+- `<leader>td` - Toggle deleted lines
+- `]c` - Next hunk
+- `[c` - Previous hunk
+- `ih` - Select hunk (text object)
+
 ### Standard Vim Commands
 - `<C-w>` + `hjkl` - Navigate between windows
 - `:w` - Save file

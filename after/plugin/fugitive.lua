@@ -1,0 +1,2 @@
+-- Fugitive configuration
+-- No additional configuration needed for basic functionality
