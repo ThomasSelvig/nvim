@@ -49,3 +49,12 @@ vim.keymap.set("n", "<leader>3", ":BufferLineGoToBuffer 3<CR>")
 vim.keymap.set("n", "<leader>4", ":BufferLineGoToBuffer 4<CR>")
 vim.keymap.set("n", "<leader>5", ":BufferLineGoToBuffer 5<CR>")
 
+-- New buffer/tab management
+vim.keymap.set("n", "<leader>tn", ":enew<CR>")
+vim.keymap.set("n", "<leader>tc", ":bdelete<CR>")
+vim.keymap.set("n", "<C-w>", ":bdelete<CR>")
+
+-- Last used buffer cycling with C-Tab
+vim.keymap.set("n", "<C-Tab>", "<C-^>")
+vim.keymap.set("n", "<C-S-Tab>", "<C-^>")
+

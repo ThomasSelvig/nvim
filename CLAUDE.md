@@ -29,6 +29,11 @@ This is a Neovim configuration using Lua, organized in a modular structure:
 - `<leader>fb` - FZF buffer list
 
 ### Buffer Management (Bufferline)
+- `<leader>tn` - New buffer/tab
+- `<leader>tc` - Close current buffer
+- `<C-w>` - Close current buffer (quick)
+- `<C-Tab>` - Toggle between last used buffers
+- `<C-S-Tab>` - Toggle between last used buffers
 - `<leader>bp` - Pick buffer interactively
 - `<leader>bc` - Pick buffer to close
 - `<C-h>` - Previous buffer
