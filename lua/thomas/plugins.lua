@@ -38,5 +38,9 @@ Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'nvimtools/none-ls.nvim'
 Plug 'jay-babu/mason-null-ls.nvim'
 
+Plug 'akinsho/bufferline.nvim'
+Plug 'roobert/bufferline-cycle-windowless.nvim'
+
+
 call plug#end()
 ]]
